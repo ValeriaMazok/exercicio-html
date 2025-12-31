@@ -1,0 +1,40 @@
+
+:root{
+    --color-primary: rgb(35, 176, 231);
+    --color-2: rgb(231, 35, 176);
+    --font-padrao: 10px, sans-serif;
+} 
+
+.menu{
+    height: 100px;
+    width: 100%;
+    background-color: var(--color-primary);
+}
+.botões{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px
+}
+
+
+.btn-01{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(200, 50, 162);
+    
+}
+.btn-02{
+    height: 50px;
+    width: 100px;
+    background-color: var(--color-primary);
+    font-family: var(--font-padrao);
+}
+
+.
+
+
+
+
+
+
+    

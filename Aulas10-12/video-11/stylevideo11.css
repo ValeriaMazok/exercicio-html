@@ -1,0 +1,43 @@
+.botoes{
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.botão-padrao{
+    width: 300px;
+    height: 50px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border-radius: 10px ;
+}
+
+.
+.botao01:hover{ 
+   background-color: rgb(243, 121, 194);
+   border: 2px solid rgb(37, 13, 29);
+   transition: 1s;
+}
+.
+.botao02:hover {
+   width: 150px;
+   transition: 1s;
+}
+
+.botao03:hover {
+  box-shadow: 10px 5px 15px black;
+    transition: 0.1s;
+}
+.botao04:hover {
+  width: 510px;
+  height: 55px;
+    transition: 0.5s;
+}

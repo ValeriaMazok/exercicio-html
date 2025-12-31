@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tagesschrift', cursive;
+}
+
+body{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #3dafcc;
+background: linear-gradient(90deg,rgba(61, 175, 204, 1) 0%, rgba(39, 137, 150, 1) 62%);
+}
+
+.container{
+    width: 800px;
+    height: 100%;
+  
+    
+}
+
+.container-image{
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.container-image p {
+
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+
+.img{
+    background-image: url("./Foto.jpeg");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+     border-radius: 50%;
+     margin-bottom: 10px;
+     border: 2px solid black;
+}
+.container-botao{
+    margin-top: 30;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+ 
+}
+.botao{
+    width: 90%;
+    height: 60PX;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    background-color: cyan;
+    margin-top: 10px;
+}
+
+.botao i{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.botao p{
+    flex: 1;
+    text-align: center;
+    font-weight: 520    ;
+}
+
+.botao:hover{
+ background-color: rgb(59, 172, 172);
+ cursor: pointer;
+ width: 92%;
+
+}
